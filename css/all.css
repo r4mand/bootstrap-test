@@ -113,15 +113,15 @@ header .header-top {
 
 .banner .bg-image {
   position: absolute;
-  top: -83px;
+  top: -131px;
   z-index: -1;
   width: 100%;
-  height: 100%;
+  height: 100vh;
 }
 
 .banner .row {
-  padding-top: 300px;
-  padding-bottom: 750px;
+  padding-top: 30vh;
+  padding-bottom: 45vh;
 }
 
 .banner .row > p:not(:last-child) {
