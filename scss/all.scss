@@ -5,3 +5,29 @@
 @import "../bootstrap/scss/nav";
 @import "blocks/header";
 @import "blocks/banner";
+// адаптив
+@media (max-width:800px) {
+    .about {
+        &-bottom {
+            flex-direction: column;
+        }
+        &-img {
+            display: none;
+        }
+    }
+}
+
+@media (max-width:630px) {
+    .modal-content {
+        max-width: 250px;
+    }
+}
+
+@media (max-width:376px) {
+    .blog {
+        &-content {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}

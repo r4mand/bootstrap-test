@@ -148,4 +148,34 @@ header .header-top {
   top: -90vh;
   z-index: 1;
 }
+
+@media (max-width: 800px) {
+  .about-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .about-img {
+    display: none;
+  }
+}
+
+@media (max-width: 630px) {
+  .modal-content {
+    max-width: 250px;
+  }
+}
+
+@media (max-width: 376px) {
+  .blog-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=all.css.map */
