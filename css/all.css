@@ -106,7 +106,6 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-  z-index: -1;
 }
 
 header .header-top {
@@ -147,6 +146,12 @@ header .header-top {
   position: absolute;
   top: -90vh;
   z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .btn-modal {
+    top: -70vh;
+  }
 }
 
 @media (max-width: 800px) {

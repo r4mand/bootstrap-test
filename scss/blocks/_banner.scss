@@ -23,3 +23,9 @@
     top: -90vh;
     z-index: 1;
 }
+
+@media (max-width: 768px) {
+    .btn-modal {
+        top: -70vh;
+    }
+}
